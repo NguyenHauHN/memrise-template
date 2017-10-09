@@ -1,0 +1,52 @@
+.footer {
+    background-color: #fff;
+    color: #37586d;
+    padding: 20px 0;
+    font-family: "Open Sans", Sans-Serif;
+}
+
+.footer-row {
+    margin: 45px auto;
+}
+
+.logo-footer img {
+    margin: 0 auto 60px;
+    display: block;
+    width: 160px;
+    height: 30px;
+}
+
+.social-btn img {
+    width: 32px;
+    height: 32px;
+}
+
+.twitter-btn, .instagram-btn {
+    margin-left: 32px;
+}
+
+.footer h4 {
+    color: #5d5d5d;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer li {
+    line-height: 22px;
+}
+
+.footer a {
+    color: #666;
+}
+
+.footer a:hover {
+    color: #7757A8;
+}
