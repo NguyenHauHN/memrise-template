@@ -64,3 +64,10 @@ a {
     min-width: 66px;
     cursor: pointer;
 }
+
+.hide{
+    display: none !important;
+}
+.block{
+    display: inline-block !important;
+}
