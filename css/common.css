@@ -326,3 +326,108 @@
     color: black;
     text-decoration: none;
 }
+
+.leader-board{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.08) 0 1px 2px;
+    border: 1px solid #e4e4e4;
+    font-family: "Open Sans",Sans-Serif;
+    width: 220px;
+    display: block;
+}
+.leader-board-header{
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding: 9px 0;
+    text-align: center;
+}
+
+.leader-board-image{
+    background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/blue-jelly-icons-sports-hobbies/043273-blue-jelly-icon-sports-hobbies-cup-trophy.png);
+    background-position: 0 0;
+    background-size: 100px 22px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    width: 26px;
+    height: 21px;
+    margin-right: 8px;
+}
+
+.leaderboard-title{
+    vertical-align: middle;
+    color: #1fa3e8;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.leaderboard-content{
+
+}
+
+.leaderboard-rows{
+    list-style-type: none;
+    background-color: #f8f8f8;
+    margin: 0;
+    font-size: 12px;
+}
+
+.leaderboard-row{
+    height: 42px;
+    width: 100%;
+    line-height: 42px;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    display: table;
+}
+
+.row-pic{
+    width: 40px;
+    max-width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.pic{
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+}
+
+ul{
+    -webkit-padding-start: 0px;
+}
+
+.row-username span{
+    overflow: hidden;
+    max-width: 80px;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.leaderboard-row span{
+    vertical-align: middle;
+}
+.row-points{
+    display: table-cell;
+    text-align: right;
+    font-weight: 600;
+    max-width: 25%;
+    padding-right: 10px;
+}
+
+.current{
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-image: linear-gradient(-90deg, #20a2e9 0%, #10bdde 97%);
+    background-color: #20a2e9;
+    color: white;
+}
+
+.leaderboard-link a{
+    transition: all 0s;
+    display: block;
+    color: #545050;
+    line-height: 38px;
+    text-align: center;
+}
