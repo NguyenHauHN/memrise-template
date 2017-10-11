@@ -1,110 +1,124 @@
 <html>
-    <head>
-        <title>Memrise-Course</title>
-        <link rel="stylesheet" type="text/css" href="css/course.css">
-        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        
-    </head>
-    <body class="memrise">
-        <div class="container-fluid">
-            <div class="app">
-                <div class="header" id="header">
-                    <div class="header-row">
-                        <div style="display: flex; flex-direction: row; height: 100%;">
-                            <div style="display: flex; flex: 1; align-items: center">
-                                <div class="header-logo-wrapper">
-                                    <span class="text-style-1">EL</span>earning
-                                </div>
-                                <div style="display: flex; align-items: center;justify-content: center; height: 100% ; padding: 15px;">
-                                  <span  class="nav-item">
+<head>
+    <title>Memrise-Course</title>
+    <link rel="stylesheet" type="text/css" href="../styles/course.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+
+</head>
+<body class="memrise">
+<div class="container-fluid">
+    <div class="app">
+        <div class="header" id="header">
+            <div class="header-row">
+                <div style="display: flex; flex-direction: row; height: 100%;">
+                    <div style="display: flex; flex: 1; align-items: center">
+                        <div class="header-logo-wrapper">
+                            <span class="text-style-1">EL</span>earning
+                        </div>
+                        <div style="display: flex; align-items: center;justify-content: center; height: 100% ; padding: 15px;">
+                                  <span class="nav-item">
                                      Trang chủ
                                   </span>
-                                </div>
-                                <div style="display: flex;align-items: center;justify-content: center; height: 100%; padding: 15px;">
+                        </div>
+                        <div style="display: flex;align-items: center;justify-content: center; height: 100%; padding: 15px;">
                                     <span class="nav-item nav-item-active">
                                        Khóa học
                                     </span>
-                               </div>
-                                <div style="display: flex;  align-items: center;justify-content: center; height: 100%; padding: 15px;">
+                        </div>
+                        <div style="display: flex;  align-items: center;justify-content: center; height: 100%; padding: 15px;">
                                     <span class="nav-item">
                                         Nhóm
                                     </span>
-                                </div>
+                        </div>
 
-                            </div>
-                            <div style="display: flex; flex: 1; align-items: center; flex-flow: row-reverse">
-                                    <div style="display: flex; ;align-items: center;justify-content: center; height: 100%">
-                                        <img  class="avata" src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/vn-01.png" alt="">
-                                        <img class="drop-down-arrow" src="http://www.iconsdb.com/icons/preview/white/arrow-217-xxl.png"></img>
-                                    </div>     
-                            </div>
+                    </div>
+                    <div style="display: flex; flex: 1; align-items: center; flex-flow: row-reverse">
+                        <div style="display: flex; ;align-items: center;justify-content: center; height: 100%">
+                            <img class="avata"
+                                 src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/vn-01.png"
+                                 alt="">
+                            <img class="drop-down-arrow"
+                                 src="http://www.iconsdb.com/icons/preview/white/arrow-217-xxl.png"></img>
                         </div>
                     </div>
                 </div>
-                <div style="height: 62px"></div>
-                <div id="page-head" style="display: inline-table; flex-direction: row; width: 100%;justify-content: center; padding: 14px 0;">
-                    <div style="display: flex; flex-direction: row;justify-content: center; " class="container">
-                        <div style="display: flex; flex: 3.5; padding: 5px;">
-                            <div style="display: flex; flex: 3; padding: 5px;">
-                                <a>
-                                    <img class="course-image" src="https://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/2224242000150817093111.png">
-                                </a>
+            </div>
+        </div>
+        <div style="height: 62px"></div>
+        <div id="page-head"
+             style="display: inline-table; flex-direction: row; width: 100%;justify-content: center; padding: 14px 0;">
+            <div style="display: flex; flex-direction: row;justify-content: center; " class="container">
+                <div style="display: flex; flex: 3.5; padding: 5px;">
+                    <div style="display: flex; flex: 3; padding: 5px;">
+                        <a>
+                            <img class="course-image"
+                                 src="https://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/2224242000150817093111.png">
+                        </a>
+                    </div>
+                    <div style="display: flex; flex: 7; padding: 5px; flex-direction: column">
+                        <div style="display: flex; flex:2; flex-direction: row; align-items: center">
+                            <a href=""><span style="color: #fff; font-size: 14px; padding: 2px;">Khóa học</span></a>
+                            <img style="width: 10px; height: 10px; padding: 2px"
+                                 src="http://flaticons.net/icons/Application/Arrowhead-Right.png">
+                            <a href=""><span style="color: #fff; font-size: 14px; padding: 2px;">Ngôn ngữ</span></a>
+                        </div>
+                        <div style="width: 100%; height: 1px; background-color: #B6B0B0"></div>
+                        <div style="display: flex; flex:6; flex-direction: column;">
+                            <div style="display: flex; align-items: center; flex: 2; padding: 5px;">
+                                <span style="font-size: 28px; color: white;">600 Từ Cần Thiết Cho TOEIC</span>
                             </div>
-                            <div style="display: flex; flex: 7; padding: 5px; flex-direction: column">
-                                <div style="display: flex; flex:2; flex-direction: row; align-items: center">
-                                    <a href=""><span style="color: #fff; font-size: 14px; padding: 2px;">Khóa học</span></a>
-                                    <img style="width: 10px; height: 10px; padding: 2px"src="http://flaticons.net/icons/Application/Arrowhead-Right.png">
-                                    <a href=""><span style="color: #fff; font-size: 14px; padding: 2px;">Ngôn ngữ</span></a>
-                                </div>
-                                <div style="width: 100%; height: 1px; background-color: #B6B0B0"></div>
-                                <div style="display: flex; flex:6; flex-direction: column;">
-                                    <div style="display: flex; align-items: center; flex: 2; padding: 5px;">
-                                        <span style="font-size: 28px; color: white;">600 Từ Cần Thiết Cho TOEIC</span>
-                                    </div>
-                                    <div style="display: flex; justify-content: center; flex: 3; padding: 5px;">
+                            <div style="display: flex; justify-content: center; flex: 3; padding: 5px;">
                                         <span style="color: #fff">Learn the first 400 words that have helped other students to succeed in the TOEFL exam. Memrise makes these words stick to your mind instantly, and it makes sure that you really memorise them so that you can use them with confidence.
                                         </span>
-                                    </div>
-                                </div>
-                                <div style="display: flex; justify-content: center; flex: 2;padding: 5px">
-                                    <a class="btn btn-success btn-large" style="width: 200px; color: #fff" href="https://www.memrise.com/course/754466/400-words-of-toefl-intermediate-english/">Bắt đầu học</a>
-                                </div>
                             </div>
                         </div>
-                        <div style="display: flex; flex: 1.5; padding: 5px;"></div>
+                        <div style="display: flex; justify-content: center; flex: 2;padding: 5px">
+                            <a class="btn btn-success btn-large" style="width: 200px; color: #fff"
+                               href="https://www.memrise.com/course/754466/400-words-of-toefl-intermediate-english/">Bắt
+                                đầu học</a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
-                    <div style="background-color: #fff; margin-bottom: 10px !important; height: 60px;">
-                        <div class="container">
-                            <div style="display: flex; align-content: center; height: 60px">
-                                <a class="tab" href="#"><img src="http://www.iconsdb.com/icons/preview/white/book-xxl.png" height="20px" width="20px" style="margin-right: 5px ">20 Bài</a>
-                            </div>
-                        </div>
+                <div style="display: flex; flex: 1.5; padding: 5px;"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div style="background-color: #fff; margin-bottom: 10px !important; height: 60px;">
+                <div class="container">
+                    <div style="display: flex; align-content: center; height: 60px">
+                        <a class="tab" href="#"><img src="http://www.iconsdb.com/icons/preview/white/book-xxl.png"
+                                                     height="20px" width="20px" style="margin-right: 5px ">20 Bài</a>
                     </div>
-                    <div class="container">
-                        <div  style="display: flex; flex-direction: row;">
-                        <div style="display: flex; flex-direction: column; flex: 5;">
+                </div>
+            </div>
+            <div class="container">
+                <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column; flex: 5;">
                         <div class="progress-box">
                             <div style="display: flex; flex:3; width: 100%;">
                                 <div style="display: flex; flex:8; align-content: center">
                                     <span class="progress-box-title">5 / 398 words learned (0 in long term memory)</span>
                                 </div>
                                 <div style="display: flex; flex:2; align-content: center; flex-direction: row-reverse">
-                                        <span class="progress-box-title">0 ignored</span>
+                                    <span class="progress-box-title">0 ignored</span>
                                 </div>
                             </div>
                             <div style="display: flex; flex:2; width: 100%; padding: 10px 0px; align-items: center; justify-content: center">
-                                <!-- <progress value=5 max=100 class="progress-bar-custom">
-                                </progress> -->
                                 <div class="progress" style="height: 10px ; width: 100%">
                                     <div class="bar bar-success" style="width: 5%"></div>
                                 </div>
@@ -113,296 +127,345 @@
                                 <div style="display: flex; flex:4; align-items: center;">
                                     <div class="btn-option">
                                         <div class="dropdown">
-                                            <button class="button dropdown-toggle" type="button"  id="dropdownMenuButton" data-toggle="dropdown"><img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-512.png" height="20px" width="20px" style="margin-right: 5px ">option</button>
+                                            <button class="button dropdown-toggle" type="button" id="dropdownMenuButton"
+                                                    data-toggle="dropdown"><img
+                                                    src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-512.png"
+                                                    height="20px" width="20px" style="margin-right: 5px ">Tùy chọn
+                                            </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                              <a class="dropdown-item" href="#"><span></span>Thoát khóa học</a>
+                                                <a class="dropdown-item" href="#" data-role="course-unenroll"><span
+                                                        class="ico icon-stop"></span> Thoát khóa học</a>
                                             </div>
-                                          </div>
+                                        </div>
                                     </div>
-                                   
+
                                 </div>
                                 <div style="display: flex; flex:7"></div>
                             </div>
-                           
+
                         </div>
                         <div class="topic-box">
                             <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
                                 <div class="level-inside">
-                                    <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                    <div class="progress" style="margin-top: 30px">
-                                        <div class="bar bar-success" style="width: 50%"></div>
+                                    <i class="level-ico level-icon-s level-ico-seed"></i>
+                                    <div class="level-status">
+                                        <div class="progress">
+                                            <div class="bar bar-success" style="width: 50%"></div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="level-title">Contract</div>
-                            </a>
-                            <a class="item-lesson" href="#">
-                                <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                        <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="level-title">Contract</div>
-                            </a>
-                            <a class="item-lesson" href="#">
-                                <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                            </div>
-                                    </div>
-                                    <div class="level-title">Contract</div>
                             </a>
                             <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
                                 <div class="level-inside">
-                                    <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                        <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
+                                    </div>
                                 </div>
                                 <div class="level-title">Contract</div>
                             </a>
                             <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
                             <a class="item-lesson" href="#">
-                                    <div class="level-index">1</div>
-                                        <div class="level-inside">
-                                            <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                                <div class="progress" style="margin-top: 30px">
-                                                <div class="bar" style="width: 50%"></div>
-                                            </div>
-                                        </div>
-                                    <div class="level-title">Contract</div>
-                                </a>
-                             <a class="item-lesson" href="#" >
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#" >
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#">
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#">
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#">
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#">
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
-                             <a class="item-lesson" href="#">
+                            <a class="item-lesson" href="#">
                                 <div class="level-index">1</div>
-                                    <div class="level-inside">
-                                        <img src="https://thenationalweddingdirectory.com.au/wp-content/uploads/2015/11/flower-icon.png" class="level-img" alt="">
-                                            <div class="progress" style="margin-top: 30px">
-                                            <div class="bar" style="width: 50%"></div>
-                                        </div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
                                     </div>
+                                </div>
                                 <div class="level-title">Contract</div>
                             </a>
+                            <a class="item-lesson" href="#">
+                                <div class="level-index">1</div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
+                                    </div>
+                                </div>
+                                <div class="level-title">Contract</div>
+                            </a>
+                            <a class="item-lesson" href="#">
+                                <div class="level-index">1</div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
+                                    </div>
+                                </div>
+                                <div class="level-title">Contract</div>
+                            </a><a class="item-lesson" href="#">
+                            <div class="level-index">1</div>
+                            <div class="level-inside">
+                                <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                <div class="level-status">
+                                    Học ngay
+                                </div>
+                            </div>
+                            <div class="level-title">Contract</div>
+                        </a>
+                            <a class="item-lesson" href="#">
+                                <div class="level-index">1</div>
+                                <div class="level-inside">
+                                    <i class="level-ico level-icon-s level-ico-plant-inactive"></i>
+                                    <div class="level-status">
+                                        Học ngay
+                                    </div>
+                                </div>
+                                <div class="level-title">Contract</div>
+                            </a>
+
+
                         </div>
-                        </div>
-                        <div style="display: flex;flex: 1.5">
-                           <div style="display: block">
-                               <div  class="leader-board">
-                                   <div class="leader-board-header">
-                                       <!-- <span class="leader-board-image"></span> -->
-                                       <img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/blue-jelly-icons-sports-hobbies/043273-blue-jelly-icon-sports-hobbies-cup-trophy.png" style="vertical-align: top;width: 26px;height: 21px;margin-right: 8px;">
-                                       <span class="leaderboard-title">Leaderboard</span>
-                                   </div>
-                                   <div class="leaderboard-content">
-                                       <ul class="leaderboard-rows">
-                                           <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                    </div>
+                    <div style="display: flex;flex: 1.5">
+                        <div style="display: block">
+                            <div class="leader-board">
+                                <div class="leader-board-header">
+                                    <!-- <span class="leader-board-image"></span> -->
+                                    <img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/blue-jelly-icons-sports-hobbies/043273-blue-jelly-icon-sports-hobbies-cup-trophy.png"
+                                         style="vertical-align: top;width: 26px;height: 21px;margin-right: 8px;">
+                                    <span class="leaderboard-title">Leaderboard</span>
+                                </div>
+                                <div class="leaderboard-content">
+                                    <ul class="leaderboard-rows">
+                                        <li class="leaderboard-row dropdown">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>1.</strong>
-                                                   <span>Daizee</span>
+                                                   <span class="dropdown-toggle"
+                                                         id="dropdownCardUser" data-toggle="dropdown"
+                                                         aria-expanded="false">Daizee</span>
+                                                 <div class="dropdown-menu rightMenu" aria-labelledby="dropdownCardUser">
+                                                     <div style="height: 100px; width: 280px">
+                                                         <span class="tail">
+                                                         </span>
+                                                         <div class="left-card">
+                                                             <a href="#" class="white-box pic-wrapper">
+                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/Memstart_170919_1446_18.jpg" height="80px">
+                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/icons/ranks/ziggy_13.svg" class="rank-icon">
+                                                             </a>
+                                                         </div>
+                                                         <div class="right-card">
+                                                             <div class="name-field">
+                                                                 <a class="the-username" href="#">Daizee</a>
+                                                             </div>
+                                                             <div class="user-point">10000 points</div>
+                                                         </div>
+                                                     </div>
+                                                </div>
+                                            </span>
+                                            <span class="row-points">
+                                                   <span class="top-rank">99999</span>
                                                </span>
-                                               <span class="row-points">
-                                                   <span>99999</span>
-                                               </span>
-                                           </li>
-                                           <li class="leaderboard-row">
-                                                <span  class="row-pic" >
-                                                     <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                                <span class="row-pic">
+                                                     <img class="pic"
+                                                          src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                 </span>
-                                                <span class="row-username">
+                                            <span class="row-username">
                                                     <strong>2.</strong>
                                                     <span>Daizee</span>
                                                 </span>
-                                                <span class="row-points">
+                                            <span class="row-points">
                                                     <span>99999</span>
                                                 </span>
-                                            </li>
-                                            <li class="leaderboard-row">
-                                                    <span  class="row-pic" >
-                                                         <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                                    <span class="row-pic">
+                                                         <img class="pic"
+                                                              src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                     </span>
-                                                    <span class="row-username">
+                                            <span class="row-username">
                                                         <strong>3.</strong>
                                                         <span>Daizee</span>
                                                     </span>
-                                                    <span class="row-points">
+                                            <span class="row-points">
                                                         <span>99999</span>
                                                     </span>
-                                                </li>
-                                             <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>4.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                           <li class="leaderboard-row">
-                                                <span  class="row-pic" >
-                                                     <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                                <span class="row-pic">
+                                                     <img class="pic"
+                                                          src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                 </span>
-                                                <span class="row-username">
+                                            <span class="row-username">
                                                     <strong>5.</strong>
                                                     <span>Daizee</span>
                                                 </span>
-                                                <span class="row-points">
+                                            <span class="row-points">
                                                     <span>99999</span>
                                                 </span>
-                                            </li>
-                                             <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>6.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                            <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>7.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                            <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>8.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                            <li class="leaderboard-row">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>9.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                            <li class="leaderboard-row current">
-                                               <span  class="row-pic" >
-                                                    <img class="pic" src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
+                                        </li>
+                                        <li class="leaderboard-row current">
+                                               <span class="row-pic">
+                                                    <img class="pic"
+                                                         src="https://d2rhekw5qr4gcj.cloudfront.net/accounts/img/placeholders/avatar-2.png">
                                                </span>
-                                               <span class="row-username">
+                                            <span class="row-username">
                                                    <strong>10.</strong>
                                                    <span>Daizee</span>
                                                </span>
-                                               <span class="row-points">
+                                            <span class="row-points">
                                                    <span>99999</span>
                                                </span>
-                                           </li>
-                                       </ul>
-                                   </div>
-                                   <div class="leaderboard-link">
-                                       <a href="#">More</a>
-                                   </div>
-                               </div>
-                           </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="leaderboard-link">
+                                    <a href="#">More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
-            <footer style="height: 50px;"></footer>
-        </div>
-       
-        </body>
+    </div>
+</div>
+<footer style="height: 50px;"></footer>
+</div>
+
+</body>
 </html>
