@@ -7,59 +7,53 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../extends/bootstrap/css/bootstrap.min.css">
 </head>
 <body class="memrise">
+<!--header-->
+<div class=" fixed-top header">
+    <div class="container-wrapper navbar navbar-toggleable-md navbar-inverse no-padding-left no-padding-right">
+        <a href="" class="logo navbar-brand">
+           <span class="logo-wrapper">
+               <span class="logo-section-1">EL</span>earning
+           </span>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item header-nav-item">
+                    <a class="nav-link" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item  header-nav-item active">
+                    <a class="nav-link" href="#">Khóa học</a>
+                </li>
+                <li class="nav-item  header-nav-item">
+                    <a class="nav-link" href="#">Nhóm</a>
+                </li>
+                <li class="nav-item  header-nav-item btn-register-pro">
+                    <a class="nav-link" href="#">
+                        <span class="icon-pro"></span>
+                        <span> Đăng lý gói Pro</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="avatar">
+                <img src="../images/avatar.jpg" class="avatar-img rounded-circle img-responsive">
+                <span class="toggle-icon"></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div style="height: 50px"></div>
 <div class="container-fluid">
     <div class="app">
-        <div class="header" id="header">
-            <div class="header-row">
-                <div style="display: flex; flex-direction: row; height: 100%;">
-                    <div style="display: flex; flex: 1; align-items: center">
-                        <div class="header-logo-wrapper">
-                            <span class="text-style-1">EL</span>earning
-                        </div>
-                        <div style="display: flex; align-items: center;justify-content: center; height: 100% ; padding: 15px;">
-                                  <span class="nav-item">
-                                     Trang chủ
-                                  </span>
-                        </div>
-                        <div style="display: flex;align-items: center;justify-content: center; height: 100%; padding: 15px;">
-                                    <span class="nav-item nav-item-active">
-                                       Khóa học
-                                    </span>
-                        </div>
-                        <div style="display: flex;  align-items: center;justify-content: center; height: 100%; padding: 15px;">
-                                    <span class="nav-item">
-                                        Nhóm
-                                    </span>
-                        </div>
-
-                    </div>
-                    <div style="display: flex; flex: 1; align-items: center; flex-flow: row-reverse">
-                        <div style="display: flex; ;align-items: center;justify-content: center; height: 100%">
-                            <img class="avata"
-                                 src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/vn-01.png"
-                                 alt="">
-                            <img class="drop-down-arrow"
-                                 src="http://www.iconsdb.com/icons/preview/white/arrow-217-xxl.png"></img>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 62px"></div>
         <div id="page-head"
              style="display: inline-table; flex-direction: row; width: 100%;justify-content: center; padding: 14px 0;">
             <div style="display: flex; flex-direction: row;justify-content: center; " class="container">
@@ -311,14 +305,17 @@
                                                    <span class="dropdown-toggle"
                                                          id="dropdownCardUser" data-toggle="dropdown"
                                                          aria-expanded="false">Daizee</span>
-                                                 <div class="dropdown-menu rightMenu" aria-labelledby="dropdownCardUser">
+                                                 <div class="dropdown-menu rightMenu"
+                                                      aria-labelledby="dropdownCardUser">
                                                      <div style="height: 100px; width: 280px">
                                                          <span class="tail">
                                                          </span>
                                                          <div class="left-card">
                                                              <a href="#" class="white-box pic-wrapper">
-                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/Memstart_170919_1446_18.jpg" height="80px">
-                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/icons/ranks/ziggy_13.svg" class="rank-icon">
+                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/Memstart_170919_1446_18.jpg"
+                                                                      height="80px">
+                                                                 <img src="https://d2rhekw5qr4gcj.cloudfront.net/img/icons/ranks/ziggy_13.svg"
+                                                                      class="rank-icon">
                                                              </a>
                                                          </div>
                                                          <div class="right-card">
@@ -464,7 +461,124 @@
         </div>
     </div>
 </div>
-<footer style="height: 50px;"></footer>
+<!--footer-->
+<div class="footer">
+    <div class="container-wrapper footer-row">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 text-center">
+                <div class="logo-footer">
+                    <a href="">
+                        <img src="../images/memrise-logo-footer.png" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="social-btn">
+                    <a href="" class="facebook-btn">
+                        <img src="../images/facebook-icon.png" class="rounded">
+                    </a>
+                    <a href="" class="twitter-btn">
+                        <img src="../images/twitter-icon.png" class="rounded">
+                    </a>
+                    <a href="" class="instagram-btn">
+                        <img src="../images/instagram-icon.png" class="rounded">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h4>MEMRISE</h4>
+                <ul class="list-item">
+                    <li>
+                        <a href="">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="">Khoa học</a>
+                    </li>
+                    <li>
+                        <a href="">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="">Đội ngũ</a>
+                    </li>
+
+                    <li>
+                        <a href="">Cơ hội việc làm</a>
+                    </li>
+                    <li>
+                        <a href="">Press</a>
+                    </li>
+                    <li>
+                        <a href="">Điều khoản sử dụng</a>
+                    </li>
+                    <li>
+                        <a href="">Chính sách bảo mật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h4>MORE</h4>
+                <ul class="list-item">
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Diễn đàn</a>
+                    </li>
+                    <li>
+                        <a href="">Giáo viên</a>
+                    </li>
+                    <li>
+                        <a href="">Membus</a>
+                    </li>
+                </ul>
+
+                <h4 style="margin-top: 10px;">MORE</h4>
+                <ul class="list-item">
+                    <li>
+                        <a href="">Câu hỏi thường gặp & Trợ giúp</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h4>MORE</h4>
+                <ul class="list-item">
+                    <li>
+                        <a href="">Ngoại ngữ</a>
+                    </li>
+                    <li>
+                        <a href="">Nghệ thuật & Văn học</a>
+                    </li>
+                    <li>
+                        <a href="">Toán học & Khóa học</a>
+                    </li>
+                    <li>
+                        <a href="">Thế giới Tự nhiên</a>
+                    </li>
+                    <li>
+                        <a href="">Lịch sử & Địa lý</a>
+                    </li>
+                    <li>
+                        <a href="">Chuyên môn & Nghề nghiệp</a>
+                    </li>
+                    <li>
+                        <a href="">Giải trí</a>
+                    </li>
+                    <li>
+                        <a href="">Khoa học thường thức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="../extends/jquery/jquery-3.2.1.slim.min.js"></script>
+<script src="../extends/jquery/popper.min.js"></script>
+<script src="../extends/tether/tether.min.js"></script>
+<script src="../extends/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="../js/skip-vocabulary.js"></script>
 </div>
 
 </body>
