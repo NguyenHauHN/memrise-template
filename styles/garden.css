@@ -276,7 +276,7 @@
     margin-top: 13px;
 }
 
-.row-content:first-child{
+.row-content:first-child {
     margin-top: 0px;
 }
 
@@ -377,6 +377,10 @@
     margin-top: 20px;
 }
 
+.area-right .carousel-control-next {
+    display: inline-block;
+}
+
 .btn-next {
     height: 100px;
     width: 70px;
@@ -453,10 +457,12 @@
     background-position: -52px -26px;
     transform: scale(1.2, 1.2);
 }
-.icon-speaker{
+
+.icon-speaker {
     width: 30%;
     text-align: right;
 }
+
 .icon-speaker a {
     display: block;
     background-position: -64px -96px;
@@ -464,4 +470,42 @@
     width: 32px;
     height: 32px;
     background-size: 224px 320px;
+}
+
+.garden .carousel-control-next {
+    position: static !important;
+}
+
+.garden .carousel-item.active {
+    flex-direction: column;
+}
+
+#carouselExampleControls {
+    display: flex;
+    width: 90%;
+}
+
+.hint-answer {
+    text-shadow: 1px 1px 0 white;
+    color: #aaa;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Kai", "KaiTi", Sans-Serif;
+    padding: 11.42857px;
+    font-size: 17.6px;
+}
+
+.answer-item {
+    width: 200px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 10px;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    color: #3E3E3E;
+    font-family: "Times New Roman", "Times", "Kai", "KaiTi", Serif;
+    font-size: 30px;
+    line-height: 41px;
+    transition: background-color 0.1s linear, opacity 0.1s linear, border-color 0.1s linear;
 }
