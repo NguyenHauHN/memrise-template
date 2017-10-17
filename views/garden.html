@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vườn</title>
+    <link rel="stylesheet" href="../extends/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/garden.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+<body class="garden">
+<!--header-->
+<div class="garden-header">
+    <div class="header-left">
+        <div class="wrap-logo">
+            <div class="logo-header"></div>
+        </div>
+        <div class="icon-listen-audio">
+            <i class="icon-audio icon-play" id="audio"></i>
+        </div>
+    </div>
+
+    <div class="header-middle">
+        <div class="header-info">
+            <div class="text-progress">
+                <span class="number-vocalbulary-header">Học 5 từ mới</span>
+                <span class="title-lession-header">400 từ TOEFL - Tiếng Anh - Thức ăn và Trồng trọt</span>
+            </div>
+            <div class="wrap-numver-point">
+                <span class="point">45</span>
+            </div>
+        </div>
+
+        <div class="header-progress">
+            <div class="wrap-progress">
+                <div class="progress-bar-header" style="width: 25%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-right">
+        <div class="header-user">
+            <img src="../images/avatar.jpg" class="img-fluid">
+        </div>
+        <div class="header-exit">
+            <a href=""></a>
+        </div>
+    </div>
+</div>
+
+<!--body-->
+<div class="garden-area">
+    <div class="area-left">
+        <p class="help-button"> Phím tắt</p>
+        <p class="help-button sound-button">
+            <span class="block" id="turn-off">Tắt âm thanh</span>
+            <span class="hide" id="turn-on">Bật âm thanh</span>
+        </p>
+    </div>
+
+    <div class="loading-screen hide">
+        <div class="loading-spinner"></div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="central-area">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row-content">
+                        <div class="row-label"></div>
+                        <div class="row-value">
+                            <div class="icon-speaker">
+                                <a href=""> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="central-area-left">
+                        <div class="row-content">
+                            <div class="row-label">Tiếng Anh</div>
+                            <div class="row-value  underline row-first">
+                                <div class=" value-vocalbulary">irrigation</div>
+                                <div class="icon-vocalbulary">
+                                    <div class="icon-growth"></div>
+                                    <div class="wrap-icon-pro">
+                                        <a href="" class="icon-feauture-pro icon-pro-lighting">
+                                        </a>
+                                        <a href="" class="icon-feauture-pro icon-pro-skip">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-content">
+                            <div class="row-label">Định nghĩa tiếng Anh</div>
+                            <div class="row-value underline"> a means of supplying water for agriculture</div>
+                        </div>
+                        <div class="row-content">
+                            <div class="row-label">Tiếng Việt</div>
+                            <div class="row-value vn-meaning underline">sự tưới nước</div>
+                        </div>
+                        <div class="row-content">
+                            <div class="row-label">Từ loại</div>
+                            <div class="row-value ">
+                                <span class="badge">danh từ</span>
+                            </div>
+                        </div>
+
+                        <div class="help-remember">
+                            <a href="">
+                                <i class="ico ico-brand"></i>Giúp tôi ghi nhớ từ này
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="carousel-item active">
+                        <div class="row-content">
+                            <div class="row-label"></div>
+                            <div class="row-value">
+                                <div class="icon-speaker">
+                                    <a href=""> </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="central-area-left">
+                            <div class="question-row"></div>
+                            <div class="hint-answer">
+                                Choose the correct
+                                <b>Tiếng Việt</b>
+                                for the <b>Tiếng Anh </b> above:
+                            </div>
+                            <div class="answer-row">
+                                <div class="row-answer-first">
+                                    <button type="button" class="answer-item">
+                                        <span class="index">1. </span>
+                                        <span>anh ấy bao nhiêu tuổi</span>
+                                    </button>
+                                    <button type="button" class="answer-item">
+                                        <span class="index">2. </span>
+                                        <span>cô ấy bao nhiêu tuổi</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="area-right">
+            <a class="carousel-control-next btn-next" href="#carouselExampleControls" role="button"
+               data-slide="next">
+                <span class="next-icon"></span>
+                <div class="text-next">Tiếp</div>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+<script src="../extends/jquery/jquery-3.2.1.slim.min.js"></script>
+<script src="../extends/jquery/popper.min.js"></script>
+<script src="../extends/tether/tether.min.js"></script>
+<script src="../extends/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/garden.js"></script>
+</body>
+</html>
