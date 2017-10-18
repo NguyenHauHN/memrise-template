@@ -494,18 +494,106 @@
 }
 
 .answer-item {
-    width: 200px;
+    width: 250px;
     display: block;
     clear: both;
-    overflow: hidden;
-    border: 1px solid #e6e6e6;
-    background-color: #fff;
+    cursor: pointer;
     border-radius: 10px;
     background-repeat: repeat-x;
     background-size: 100% 100%;
-    color: #3E3E3E;
+    padding: 8px 17.14286px 8px 43.42857px;
     font-family: "Times New Roman", "Times", "Kai", "KaiTi", Serif;
     font-size: 30px;
     line-height: 41px;
     transition: background-color 0.1s linear, opacity 0.1s linear, border-color 0.1s linear;
+    outline: none !important;
+}
+
+.answer-item:hover {
+    border-color: #8c4a6c;
+    background-color: #aa5f86;
+    color: white;
+}
+
+.choosed {
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    color: #3E3E3E;
+}
+
+.incorrect {
+    border-color: #dd2231 !important;
+    background-color: #e44e5a !important;
+    color: white !important;
+}
+
+.correct {
+    border-color: #71a137 !important;
+    background-color: #8bc14a !important;
+    color: white !important;
+}
+
+.row-answer-first {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.row-answer-first button {
+    display: inline-block;
+}
+
+.answer-item-first {
+    margin-right: 15px;
+}
+
+.view-answer {
+    margin-top: 10px;
+}
+
+.btn-view-answer {
+    opacity: 0.75;
+    color: #6D6E70;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-color: #CDCCCB;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+    padding: 8px 20px;
+    margin-left: 15px;
+    transition: background-color .2s;
+    border-radius: 6.2px;
+    background-image: url(https://d2rhekw5qr4gcj.cloudfront.net/img/backgrounds/button.png);
+    background-position: center center;
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2) inset, 0 -1px 0 0 rgba(0, 0, 0, 0.05) inset;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn-view-answer:hover {
+    opacity: 1;
+    background-color: #f2f2f2;
+    color: #595a5b;
+    background-position: 0 -15px;
+    transition: background-position 0.1s linear;
+
+}
+
+.icon-view-answer {
+    background-image: url("../images/difficult.png");
+    background-position: -54px -72px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background-size: 126px 180px;
+}
+
+.disable {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.answer-choosed{
+    text-align: center;
 }
